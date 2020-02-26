@@ -30,12 +30,11 @@
 - New users have NO permissions when first created
 - Default level of access of a newly created IAM user is no access to any AWS service.
 - New users are assigned Access Key ID & Secret Access Keys when first created
---These are not the same as a password. You cannot use Access Key ID & Secret Access Key to log in to the console. You can use this to access AWS via the API and Command Line, however. 
-You only get to view these once. If you lose them, you have to regenerate them. 
-
-Always setup Multi Factor Authentication on your root account.
- You can create and customise your own password rotation polices. 
-Power User allows Access to all AWS services except the management of groups and users within IAM. Special role used for users that need to administer resources, but you do not want them to mess with permissions.
-To access the console you use an account and password combination. To access AWS programmatically you use a Key and Secret Key combination
+  - These are not the same as a password. You cannot use Access Key ID & Secret Access Key to log in to the console. You can use this to access AWS via the API and Command Line, however. 
+  - You only get to view these once. If you lose them, you have to regenerate them. 
+- Always setup Multi Factor Authentication on your root account.
+- You can create and customise your own password rotation polices. 
+- Power User allows Access to all AWS services except the management of groups and users within IAM. Special role used for users that need to administer resources, but you do not want them to mess with permissions.
+- To access the console you use an account and password combination. To access AWS programmatically you use a Key and Secret Key combination
 
 
